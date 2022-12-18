@@ -17,7 +17,7 @@ function enviar(){
   dv = document.getElementById("dvResultado");
 
   dv.innerHTML = "<br><h1>⋘ Relatório ⋙</h1><br>" + 
-  "‣ Nome: <b> " + nome + "</b><br>" +
+  "‣ Nome: <b>" + nome + "</b><br>" +
   "‣ Sexo: <b>" + opSexo + "</b><br>" +
   "‣ Idade: <b>" + idade + "</b><br>";
 }
