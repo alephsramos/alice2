@@ -12,21 +12,18 @@
 
 <h1>⋘ Formulário ⋙</h1><br>
 
-<p>‣ Nome:<input id="txtNome" type="text" value="Nome" onfocus="this.value=' ';" /></p>
-<br>
-<p>‣ Idade:<input id="txtIdade" type="text" value="Idade" onfocus="this.value=' ';" /></p>
-<br>
-<p>‣ Sexo:</p>
-<p><input id="rdM" name="sexo" type="radio" ondblclick="if(this.checked){this.checked=false};"/> Masculino </p>
-<p><input id="rdF" name="sexo" type="radio" ondblclick="if(this.checked){this.checked=false};"/> Feminino </p>
-<p><input id="rdO" name="sexo" type="radio" ondblclick="if(this.checked){this.checked=false};"/> Outro </p>
-<br>
-<p>‣ País: <select id="selPais"></p>
-    <option value="Brasil">Brasil</option>
-    <option value="Croácia">Croácia</option>
-    <option value="Dinamarca">Dinamarca</option>
+‣ Nome:<input id="txtNome" type="text" value="Nome" onfocus="this.value=' ';" /><br><br>
+‣ Idade:<input id="txtIdade" type="text" value="Idade" onfocus="this.value=' ';" /><br><br>
+‣ Sexo:
+<input id="rdM" name="sexo" type="radio" ondblclick="if(this.checked){this.checked=false};"/> Masculino <br>
+<input id="rdF" name="sexo" type="radio" ondblclick="if(this.checked){this.checked=false};"/> Feminino <br>
+<input id="rdO" name="sexo" type="radio" ondblclick="if(this.checked){this.checked=false};"/> Outro <br><br>
+‣ País: <select id="selPais"><br>
+    <option value="Brasil">Brasil</option><br>
+    <option value="Croácia">Croácia</option><br>
+    <option value="Dinamarca">Dinamarca</option><br>
     <option value="Espanha">Espanha</option>
-    </select><br><br>
+  </select><br><br>
 
 <input type="button" id="result" value="enviar" onclick="enviar();"/><br>
 
