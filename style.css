@@ -20,12 +20,5 @@ body {
 h1 {
   font-size: larger;
   font-family: 'Noto Sans JP', sans-serif;
-  text-align: center;
   color: white;
 }
-
-p {
-  text-align: center;
-  color: white;
-}
-
